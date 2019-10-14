@@ -93,7 +93,8 @@ friends: [
     {
         title: "GitHub·canloveme",
         href: "http://canloveme.github.io"
-#     },{
+     }
+#     {
 #         title: "CSDN·RainbomSea",
 #         href: "https://blog.csdn.net/qq_39268193"
 #     },{
