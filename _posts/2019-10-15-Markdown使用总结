@@ -1,0 +1,148 @@
+---
+layout:     post
+title:      Markdown使用总结
+subtitle:   使用Typora编写Markdown
+date:       2019-10-15
+author:     canloveme
+header-img: img/home-bg-o.jpg
+catalog: true
+tags:
+    - Blog
+---
+
+# Markdown使用总结
+
+使用markdown写一些东西，总结一下markdown的使用和markdown编辑器`Typora`的一些快捷键。
+
+## Markdown介绍和编辑器的使用
+
+Markdown是一种轻量级标记语言，可以允许人们“使用易读易写的纯文本格式来编写文档，然后转化为有效的XHTML（或者HTML）文档”。
+
+
+
+#### 标题
+
+```markdown
+# This is an <h1> tag
+## This is an <h2> tag
+###### This is an <h6> tag
+```
+
+快捷键为ctrl+0、1、2、3、4、5、6对应一至六级标题
+
+一些文本使用：
+
+1. `ctrl+u` 实现  <u>下划线</u> 也可使用`<u>`标签标记
+2. `alt + shift +5`   ~~删除线~~  也可使用双`-- --`标记
+3. `ctrl +b`**字体加粗**  也可以使用`** **`标记
+4. `ctrl + i`*字体倾斜*    也可使用`* *`标记
+5. `ctrl + shift +q`  > 引用  也可以使用 `>`  `>>`标记
+6. ==高亮显示== 使用`==  ==`可以高亮显示
+7. +淡化显示+
+8. ``\``转义
+
+#### 重点
+
+```markdown
+This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+```
+`** **` 和`__ __`可用于重点标记 
+
+如：**重点**   __重点__
+
+
+#### Lists
+
+##### 无序
+```markdown
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+```
+列表使用+即可
+
++ 一
++ 二
++ 三
+
+#####  有序
+
+```markdown
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+```
+
+#### 表格
+
+`ctrl + t`快捷键可以插入表格 
+
+| 第一个标题     | 第二个标题     |
+| -------------- | -------------- |
+| 单元格1        | 单元格2        |
+| 第一栏中的内容 | 第二栏中的内容 |
+
+#### 链接
+
+`ctrl + k`  [www.baidu.com]() 
+
+#### 代码块
+
+`ctrl + shift +点点点`
+
+==shift + ~~==可以插入代码块
+
+~~~java
+this is a java
+~~~
+
+`shfit`+三个`~`+对应的语言
+
+#### 插入图片
+
+直接拖动或者`ctrl + shift +i` 相对路径地址
+
+![测试图片](![img](http://img31.mtime.cn/mg/2016/02/05/145836.38850143_210X210X4.jpg))
+
+#### 代码高亮
+
+`使用```xxx开头，```结尾的代码块；xxx代表了语言，比如：java、xml、yaml等;`
+
+```java
+public static void main(String []args){
+    System.out.println("to use the Typora");
+}
+```
+
+#### 其他操作
+
+`$$` + `enter` 可插入数学公式
+$$
+math
+$$
+`---`+`enter`可插入分隔线
+
+---
+
+`ctrl + f`快速搜索
+
+`ctrl + l`按行选中
+
+`ctrl + h` 替换
+
+`[toc] + enter`快速生成目录
+
+`f11`全屏切换
+
+`:EMOJICODE`表情:e-mail::blonde_woman:hhh
+
+试下未联网可以使用吗``:bullettrain_side:这是个什么表情啊
