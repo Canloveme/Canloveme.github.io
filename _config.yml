@@ -12,7 +12,7 @@ github_repo: "https://github.com/canloveme/canloveme.github.io.git" #code reposi
 
 # Sidebar settings | 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "明天会更好"
+sidebar-about-description: "那明天见吧"
 sidebar-avatar: /img/head.jpg      # 头像
 
 
