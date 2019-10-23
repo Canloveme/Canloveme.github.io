@@ -204,4 +204,4 @@ public class userController {
 
 将这部分和MyBatis Generator的使用放一起吧。
 
-==不管使用注解版还是xml版，将mapper注入是最重要的。==
+==不管使用注解版还是xml版，将mapper注入是最重要的。==使用mapper注解或mapperscan
